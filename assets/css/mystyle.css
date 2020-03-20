@@ -1,0 +1,42 @@
+#body{
+    height: 100vh;
+}
+
+#body > .container{
+    min-height: 100vh;
+}
+
+#content .card-header:hover{
+    cursor: pointer;
+    background-color: rgb(58, 67, 75);
+}
+
+#content ul li:hover{
+    cursor: pointer;
+    background-color: rgb(58, 67, 75);
+}
+
+
+
+#content .col .breadcrumb > li + li:before {
+    /* color: #ccc; */
+    content: "--";
+    font-weight: 800;
+}
+
+
+footer span .text-danger{
+    font-size: 25px;
+}
+
+
+/* for particle js */
+#particles-js{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    /* pointer-events: none; */
+ }
+
+

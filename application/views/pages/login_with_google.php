@@ -1,0 +1,1 @@
+<a name="" id="" class="btn btn-primary" href="<?= $google_login_url; ?>" role="button">login</a>
